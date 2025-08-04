@@ -1,0 +1,61 @@
+.Header {
+  position: relative;
+  width: 100%;
+
+  background-color: var(--headerBg);
+  border-bottom: 1px solid #eee;
+
+  &Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 1280px;
+    padding: 12px 0;
+    box-sizing: border-box;
+    height: var(--headerHeight);
+  }
+
+  &Links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 16px 0;
+    column-gap: 24px;
+
+    > a:nth-child(2) {
+      &.notification {
+        animation-name: wave;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes wave {
+        to {
+          opacity: 1;
+        }
+
+        from {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  &Profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #0073e6;
+  }
+}

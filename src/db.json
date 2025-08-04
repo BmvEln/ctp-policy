@@ -1,0 +1,89 @@
+{
+  "marks": [
+    {
+      "id": "1",
+      "name": "LADA",
+      "models": [
+        {
+          "name": "Granta",
+          "avgPower": 90
+        },
+        {
+          "name": "Vesta",
+          "avgPower": 106
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Haval",
+      "models": [
+        {
+          "name": "Jolion",
+          "avgPower": 143
+        },
+        {
+          "name": "F7",
+          "avgPower": 150
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Kia",
+      "models": [
+        {
+          "name": "Rio",
+          "avgPower": 123
+        },
+        {
+          "name": "Sportage",
+          "avgPower": 150
+        }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "1",
+      "policyNumber": 1754341925369,
+      "dateCreation": "04.08.2025",
+      "carBrand": "LADA / Granta",
+      "costCTP": "9661",
+      "enginePower": 100,
+      "status": "Рассчитан",
+      "policyHolder": {
+        "type": "ip",
+        "data": {
+          "fullName": "Иванов Иван Иванович",
+          "birthDate": "14.01.2000"
+        }
+      },
+      "beneficiary": {
+        "type": "ip",
+        "data": {
+          "fullName": "Давыдов Павел Павлович",
+          "birthDate": "11.07.1990"
+        }
+      },
+      "drivers": [
+        {
+          "id": "1-1-1",
+          "fullName": "Рыбов Андрей Иванович",
+          "birthDate": "09.05.1995",
+          "experience": "4",
+          "licenseNumber": "7821 450392",
+          "kbm": 1.17
+        },
+        {
+          "id": "c367e06f-6a9a-439c-80a8-4044ed7b7dab",
+          "fullName": "Рыбов Игорь Иванович",
+          "birthDate": "09.05.1996",
+          "experience": "3",
+          "licenseNumber": "7822 450392",
+          "kbm": 1.17
+        }
+      ]
+    }
+  ]
+}
