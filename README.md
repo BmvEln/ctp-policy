@@ -15,4 +15,8 @@
 
 Для запуска:  
 1. В корне проекта прописать npm run dev  
-2. Находяшь в папке src прописать  json-server --watch db.json  
+2. Находясь в папке src прописать  json-server --watch db.json  
+
+`Д*ля работы приложения на netlify:
+1. Необходимо находясь в папке src прописать  json-server --watch db.json
+2. Зайти на сайт проекта`

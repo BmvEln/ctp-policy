@@ -84,6 +84,33 @@
           "kbm": 1.17
         }
       ]
+    },
+    {
+      "policyNumber": 1754341807435,
+      "dateCreation": "05.08.2025",
+      "carBrand": "LADA / Vesta",
+      "costCTP": "10539",
+      "enginePower": 106,
+      "status": "Рассчитан",
+      "policyHolder": {
+        "type": "fiz",
+        "data": {}
+      },
+      "beneficiary": {
+        "type": "fiz",
+        "data": {}
+      },
+      "drivers": [
+        {
+          "id": "2a855371-9663-4948-92a5-19cb0f096dee",
+          "fullName": "",
+          "birthDate": "22.06.2000",
+          "experience": "0",
+          "licenseNumber": "",
+          "kbm": 1.17
+        }
+      ],
+      "id": "347a"
     }
   ]
 }
